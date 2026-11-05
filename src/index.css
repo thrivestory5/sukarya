@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #07080a;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+
+  /* Custom Cinema Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #07080a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #282f3f;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e5a93c;
+  }
+}
+
+/* Film Grain Texture Overlay */
+.film-grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Glassmorphism & Cinema Card Styles */
+.glass-panel {
+  background: rgba(14, 16, 21, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-gold {
+  background: linear-gradient(135deg, rgba(229, 169, 60, 0.08) 0%, rgba(14, 16, 21, 0.85) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(229, 169, 60, 0.25);
+}
+
+/* Clapperboard striping */
+.clapper-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    #ffffff,
+    #ffffff 12px,
+    #0e1015 12px,
+    #0e1015 24px
+  );
+}
+
+/* Hologram card effect for KFT and PARFI credentials */
+.hologram-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.hologram-card::after {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0) 35%,
+    rgba(229, 169, 60, 0.2) 48%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(14, 165, 233, 0.2) 52%,
+    transparent 65%
+  );
+  transform: rotate(25deg);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.hologram-card:hover::after {
+  opacity: 1;
+  animation: shine-sweep 1.8s infinite;
+}
+
+@keyframes shine-sweep {
+  0% { transform: translateY(-30%) rotate(25deg); }
+  100% { transform: translateY(40%) rotate(25deg); }
+}
+
+/* Anamorphic Flare Effect */
+.lens-flare {
+  background: linear-gradient(90deg, transparent 0%, rgba(56, 189, 248, 0.4) 45%, rgba(255, 255, 255, 0.9) 50%, rgba(229, 169, 60, 0.4) 55%, transparent 100%);
+}
+
+/* Text glow */
+.text-gold-glow {
+  text-shadow: 0 0 24px rgba(229, 169, 60, 0.4);
+}
