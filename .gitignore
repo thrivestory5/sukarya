@@ -28,3 +28,6 @@ extracted_assets
 
 # Vercel
 .vercel
+
+.vercel
+.env*

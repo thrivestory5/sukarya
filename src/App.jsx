@@ -10,6 +10,7 @@ import CredentialsLicenses from './components/CredentialsLicenses';
 import EducationTraining from './components/EducationTraining';
 import ContactBooking from './components/ContactBooking';
 import Footer from './components/Footer';
+import WhatsAppFloat from './components/WhatsAppFloat';
 
 export default function App() {
   const [soundEnabled, setSoundEnabled] = useState(false);
@@ -133,6 +134,9 @@ export default function App() {
 
       {/* Footer */}
       <Footer soundEnabled={soundEnabled} />
+
+      {/* Floating WhatsApp Action Button */}
+      <WhatsAppFloat soundEnabled={soundEnabled} />
 
     </div>
   );
