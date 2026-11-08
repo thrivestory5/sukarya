@@ -20,7 +20,7 @@ export const PROFILE = {
     homePhone: "021 8829188",
     email: "sukaryastmarajo@gmail.com",
     address: "Bumi Anggrek Blok H 119, RT 001 / RW 07, Karang Satria, Tambun Utara, Bekasi, Jawa Barat",
-    whatsappLink: "https://wa.me/6281311159557?text=Halo%20Pak%20Sukarya,%20saya%20tertarik%20untuk%20diskusi%20proyek%20film/televisi."
+    preferredChannel: "Email (sukaryastmarajo@gmail.com)"
   },
   affiliations: [
     {
