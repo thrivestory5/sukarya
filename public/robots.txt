@@ -1,0 +1,9 @@
+# Robots.txt for https://sukarya.vercel.app/
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /PORTOFOLIO%20SUKARYA.pdf
+
+# Sitemaps
+Sitemap: https://sukarya.vercel.app/sitemap.xml
+Host: https://sukarya.vercel.app

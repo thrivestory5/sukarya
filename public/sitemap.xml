@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sukarya.vercel.app/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/hero-sukarya.jpg</image:loc>
+      <image:title>Sukarya (Sukarya Sutan Marajo / Rangga Badar) - Sutradara dan Aktor Senior Indonesia</image:title>
+      <image:caption>Potret Resmi Sukarya Sutradara Film dan Televisi Nasional KFT PB PARFI</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/kft-license.jpg</image:loc>
+      <image:title>Lisensi Profesi Sutradara KFT Indonesia - Sukarya ST Marajo</image:title>
+      <image:caption>Karyawan Film dan Televisi Indonesia Lisensi Profesi Sutradara No 3840/C/20/XIV/2024</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/parfi-card.jpg</image:loc>
+      <image:title>PB PARFI Pengurus Besar Bidang Program dan Profesi - Sukarya</image:title>
+      <image:caption>Persatuan Artis Film Indonesia Kartu Tanda Anggota AB.01.00051.90.20</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/poster-saras-008.jpg</image:loc>
+      <image:title>Poster Saras 008 Indosiar Sutradara Sukarya</image:title>
+      <image:caption>Serial Laga Superhero Ikonik Indonesia Sutradara Sukarya 1998-1999</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/poster-police-86.jpg</image:loc>
+      <image:title>Poster Police 86 Trans TV Sutradara Sukarya</image:title>
+      <image:caption>Sitkom Aksi Komedi Primetime Trans TV Sutradara Sukarya 2009-2012</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/poster-kisah-9-wali.jpg</image:loc>
+      <image:title>Poster Kisah 9 Wali Trans TV Sutradara Sukarya</image:title>
+      <image:caption>Drama Kolosal Religi Sejarah Wali Songo Trans TV Sutradara Sukarya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/poster-the-transmart.jpg</image:loc>
+      <image:title>Poster The Transmart Sitkom Trans TV Sutradara Sukarya</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/poster-cahaya-hikmah.jpg</image:loc>
+      <image:title>Poster Cahaya Hikmah MNC TV MNC Pictures Sutradara Sukarya</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sukarya.vercel.app/assets/poster-angry-boss.jpg</image:loc>
+      <image:title>Poster Angry Boss MD Entertainment Trans TV Sutradara Sukarya</image:title>
+    </image:image>
+  </url>
+</urlset>

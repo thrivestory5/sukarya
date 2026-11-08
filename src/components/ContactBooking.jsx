@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Send, MessageSquare, Download, Check, Copy, Sparkles, Clapperboard } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, MessageSquare, Download, Check, Copy, Sparkles, Clapperboard, Globe, Navigation } from 'lucide-react';
 import { PROFILE } from '../data/portfolioData';
 import { playClapperSound, playUiBeep } from '../utils/soundEffects';
 
@@ -143,6 +143,37 @@ export default function ContactBooking({ soundEnabled }) {
                 >
                   {copiedKey === 'addr' ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
                 </button>
+              </div>
+            </div>
+
+            {/* Geographic Hub & Production Coverage Card (SEO & GEO Booster) */}
+            <div className="p-6 rounded-2xl glass-panel border border-cinema-gold/20 hover:border-cinema-gold/50 transition-all text-xs font-mono">
+              <div className="flex items-center space-x-2 text-cinema-gold font-bold mb-3">
+                <Globe className="w-4 h-4" />
+                <span className="tracking-wider uppercase">HUB INDUSTRI &amp; JANGKAUAN PRODUKSI</span>
+              </div>
+              
+              <div className="space-y-2 text-cinema-silver/80">
+                <div className="flex items-start space-x-2">
+                  <span className="text-cinema-gold font-bold">&bull;</span>
+                  <p><strong className="text-white">Base Studio:</strong> Karang Satria, Tambun Utara, Kabupaten Bekasi, Jawa Barat</p>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <span className="text-cinema-gold font-bold">&bull;</span>
+                  <p><strong className="text-white">Pusat Industri:</strong> Gedung PPHUI (Pusat Perfilman H. Usmar Ismail), Kuningan, Jakarta Selatan (PB PARFI &amp; KFT Indonesia)</p>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <span className="text-cinema-gold font-bold">&bull;</span>
+                  <p><strong className="text-white">Wilayah Layanan:</strong> Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi), Jawa Barat, serta shooting lokasi produksi di seluruh Indonesia (Nasional)</p>
+                </div>
+              </div>
+
+              <div className="mt-3 pt-3 border-t border-white/10 flex items-center justify-between text-[10px] text-cinema-muted">
+                <span className="flex items-center space-x-1">
+                  <Navigation className="w-3 h-3 text-cinema-gold" />
+                  <span>KOORDINAT GEO: -6.2163° S, 107.0371° E</span>
+                </span>
+                <span className="text-emerald-400 font-bold">Terverifikasi ID-JB / ID-JK</span>
               </div>
             </div>
 

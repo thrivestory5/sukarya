@@ -97,12 +97,17 @@ export default function Footer({ soundEnabled }) {
 
           <div className="space-y-3">
             <p className="font-bold text-white uppercase tracking-wider text-xs font-display">
-              KONTAK &amp; ALAMAT
+              LOKASI &amp; KONTAK RESMI
             </p>
-            <p>HP/WA: 081311159557</p>
+            <p>HP/WA: <a href="tel:081311159557" className="text-white hover:text-cinema-gold">081311159557</a></p>
             <p>Telp Rumah: 021 8829188</p>
-            <p>Email: sukaryastmarajo@gmail.com</p>
-            <p>Tambun Utara, Bekasi, Jawa Barat</p>
+            <p>Email: <a href="mailto:sukaryastmarajo@gmail.com" className="text-cinema-gold hover:underline">sukaryastmarajo@gmail.com</a></p>
+            <p className="leading-relaxed">
+              Bumi Anggrek Blok H 119, Karang Satria, Tambun Utara, Kabupaten Bekasi 17510, Jawa Barat, Indonesia
+            </p>
+            <p className="text-[10px] text-cinema-gold">
+              Koordinat: -6.2163° S, 107.0371° E &bull; Melayani Seluruh Indonesia
+            </p>
           </div>
 
         </div>

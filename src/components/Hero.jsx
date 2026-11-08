@@ -111,7 +111,10 @@ export default function Hero({ soundEnabled }) {
                 <div className="relative aspect-[4/5] rounded-xl overflow-hidden bg-cinema-950">
                   <img
                     src={PROFILE.photos.hero}
-                    alt="Sukarya - Film & TV Director"
+                    alt="Sukarya (Sukarya Sutan Marajo / Rangga Badar) — Sutradara Film & Televisi, Aktor Senior Indonesia"
+                    title="Sukarya — Sutradara Film & Televisi Indonesia"
+                    loading="eager"
+                    fetchPriority="high"
                     className="w-full h-full object-cover object-center filter contrast-105 brightness-95 hover:scale-105 transition-transform duration-700 ease-out"
                   />
 

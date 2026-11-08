@@ -1,0 +1,17 @@
+{
+  "name": "SUKARYA — Sutradara Film & Televisi • Aktor Senior",
+  "short_name": "Sukarya Portfolio",
+  "description": "Portofolio Resmi Sukarya (Sukarya Sutan Marajo / Rangga Badar) — Sutradara Film & Televisi, Aktor Senior, Penulis Skenario, Anggota KFT & Pengurus Besar PB PARFI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080A",
+  "theme_color": "#E5A93C",
+  "icons": [
+    {
+      "src": "/assets/hero-sukarya.jpg",
+      "sizes": "384x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

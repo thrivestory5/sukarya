@@ -84,7 +84,9 @@ export default function FeaturedPosters({ soundEnabled }) {
               <div className="relative aspect-[3/4] overflow-hidden bg-cinema-950 flex items-center justify-center p-3">
                 <img
                   src={poster.image}
-                  alt={poster.title}
+                  alt={`Poster Karya ${poster.title} (${poster.year}) — Disutradarai oleh Sukarya (${poster.network})`}
+                  title={`${poster.title} — Sutradara Sukarya (${poster.network})`}
+                  loading="lazy"
                   className="w-full h-full object-contain filter contrast-105 group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
